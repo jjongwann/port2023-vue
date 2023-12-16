@@ -1,23 +1,23 @@
 <script setup>
-import { skillText } from "@/constants/index";
+import { skillText } from "../constants";
 </script>
 
 <template>
     <section id="skill">
-        <div class="skill__inner">
+        <div class="slkll__inner">
             <h2 class="skill__title">
-                Challenge <em>나의 도전</em>
+                challenge <em>나의 도전</em>
             </h2>
             <div class="skill__desc">
                 <div v-for="(skill, key) in skillText" :key="key">
-                    <span>{{ key + 1 }}</span>
+                    <span>{{ key+1 }}.</span>
                     <h3>{{ skill.title }}</h3>
-                    <p>{{ .desc }}</p>
+                    <p>{{ skill.desc }}</p>
                 </div>
             </div>
         </div>
     </section>
-</template> 
+</template>
 
 <style lang="scss">
 .slkll__inner {

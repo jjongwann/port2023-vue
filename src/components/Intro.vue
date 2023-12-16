@@ -24,7 +24,7 @@ import { introText } from "../constants";
                     <div>{{ introText.desc[2] }}</div>
                 </div>
                 <div class="img">
-                    <img src="@/assets/img/about.jpg" alt="어바웃" />
+                    <img src="@/assets/img/jongwan.jpg" alt="내 사진" />
                 </div>
             </div>
             <div class="intro__lines bottom" aria-hidden="true">
