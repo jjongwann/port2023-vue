@@ -1,7 +1,7 @@
 <script setup>
 import { headerNav } from "../constants";
-
 </script>
+
 <template>
     <header id="header" role="banner">
         <div class="header__inner">
