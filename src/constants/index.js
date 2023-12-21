@@ -53,7 +53,7 @@ export const siteText = [
     {
         text: ["make", "site compliant with", "webstandard"],
         title: "비트를 이용한 사이트 제작",
-        code: "https://github.com/jjongwannn/port2023-vite",
+        code: "https://github.com/jjongwann/port2023-vite",
         view: "https://port2023-jongs-vite.netlify.app/",
         info: [
             "site coding",
