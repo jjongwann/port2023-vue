@@ -15,7 +15,11 @@
 깊이 배우기 보다는 다양한 방법을 사용하여 흐름과 감각을 익히기 위한 튜토리얼입니다. 
 
 ## 완성작 보기 
+<<<<<<< HEAD
 미리보기: https://port2023-jongs-vue.netlify.app/
+=======
+미리보기 : https://port2023-jongs-vue.netlify.app/
+>>>>>>> 77b63da48e182403a2f9aa45826a57e5a4efb188
 
 ## 사용 스택
 - vue(https://ko.vuejs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
