@@ -6,8 +6,8 @@ import { footerText } from "../constants";
     <footer id="footer" role="contentinfo">
         <div class="footer__inner">
             <h2 class="footer__text">
-                <div>webstoryboy</div>
-                <div>@webs</div>
+                <div>jongwan</div>
+                <div>@jongs</div>
             </h2>
             <div class="footer__info">
                 <div class="left">
@@ -27,7 +27,7 @@ import { footerText } from "../constants";
                 </div>
             </div>
             <div class="footer__right">
-                &copy; 2023 webstoryboy<br />
+                &copy; 2023 jongwan<br />
                 이 사이트는 뷰를 이용하여 제작하였습니다.
             </div>
         </div>
