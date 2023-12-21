@@ -80,7 +80,7 @@ import { siteText } from "../constants";
             left: 0;
 
             &:nth-child(1) {
-                background-color: var(--subBg100);
+                background-color: #A9A9A9;
                 top: 180px;
 
                 @media (max-width: 800px){ 
@@ -88,7 +88,7 @@ import { siteText } from "../constants";
                 }
             }
             &:nth-child(2) {
-                background-color: var(--subBg200);
+                background-color: #D8D8F5;
                 top: 200px;
 
                 @media (max-width: 800px){ 
@@ -96,19 +96,11 @@ import { siteText } from "../constants";
                 }
             }
             &:nth-child(3) {
-                background-color: var(--subBg300);
+                background-color: #F0DAF0;
                 top: 220px;
 
                 @media (max-width: 800px){ 
                     top: 180px;
-                }
-            }
-            &:nth-child(4) {
-                background-color: var(--subBg400);
-                top: 240px;
-
-                @media (max-width: 800px){ 
-                    top: 200px;
                 }
             }
             .num {

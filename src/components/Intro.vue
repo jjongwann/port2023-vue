@@ -77,7 +77,7 @@ import { introText } from "../constants";
         .intro__text {
             width: 100%;
             height: 40vh;
-            background-color: #696969;
+            background-color: #F0DAF0;
             color: var(--white);
             display: flex;
             align-items: center;
@@ -133,7 +133,7 @@ import { introText } from "../constants";
                 display: block;
                 width: 100%;
                 height: 1px;
-                background-color: #A9A9A9;
+                background-color: #F5E6F5;
                 margin-bottom: 0.5vw;
     
                 &:nth-child(1){
