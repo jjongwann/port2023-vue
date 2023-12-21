@@ -1,22 +1,24 @@
 <script setup>
-import { headerNav } from "../constants";
+import { headerNav } from "@/constants/index";
 </script>
 
 <template>
     <header id="header" role="banner">
         <div class="header__inner">
-            <h1 class="header__logo">
-                <a href="#">portfolio<em>vue.js</em></a>
-            </h1>
+            <div class="header__logo">
+                <h1>
+                    <a href="#">portfolio<em>vue.js</em></a>
+                </h1>
+            </div>
             <nav 
-                :class="{show: isNavVisible}"
-                class="header__nav" 
+                class="header__nav"
+                :class="{ show: isNavVisible }"
                 role="navigation" 
                 aria-label="메인 메뉴"
             >
                 <ul>
                     <li v-for="(nav, key) in headerNav" :key="key">
-                        <a href="#intro">{{ nav.title }}</a>
+                        <a :href="nav.url" @click="scrollLink($event)">{{ nav.title }}</a>
                     </li>
                 </ul>
             </nav>
@@ -25,7 +27,7 @@ import { headerNav } from "../constants";
                 id="headerToggle" 
                 aria-controls="primary-menu" 
                 :aria-expanded="isNavVisible.toString()" 
-                role="button" 
+                role="button"
                 tabindex="0"
                 @click="toggleMobileMenu"
             >
@@ -39,12 +41,22 @@ import { headerNav } from "../constants";
 export default {
     data(){
         return {
-            isNavVisible: false
+            isNavVisible: false,
         }
     },
-    methods:{
+    methods: {
         toggleMobileMenu(){
             this.isNavVisible = !this.isNavVisible;
+        },
+        scrollLink(event){
+            event.preventDefault();
+
+            const targetId = event.target.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+
+            if(targetElement){
+                targetElement.scrollIntoView({ behavior: "smooth" });
+            }
         }
     }
 }
@@ -61,6 +73,7 @@ export default {
     @include flex-between;
     background-color: rgba(116, 99, 99, 0.1);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px); //safari, ios지원
     padding: 1rem;
 
     .header__logo {
