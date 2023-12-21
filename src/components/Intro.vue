@@ -58,14 +58,18 @@ import { introText } from "../constants";
         }
     
         .intro__title {
-            font-size: 10vw;
+            font-size: 9.5vw;
             text-transform: uppercase;
             line-height: 1;
             font-weight: 800;
             white-space: nowrap;
             text-indent: -0.5vw;
             letter-spacing: -0.3vw;
-    
+            
+            @media (max-width: 800px){ 
+                font-size: 2.4rem;
+            }
+
             @media (max-width: 320px){ 
                 display: none;
             }
@@ -73,7 +77,7 @@ import { introText } from "../constants";
         .intro__text {
             width: 100%;
             height: 40vh;
-            background-color: var(--black);
+            background-color: #696969;
             color: var(--white);
             display: flex;
             align-items: center;
@@ -129,7 +133,7 @@ import { introText } from "../constants";
                 display: block;
                 width: 100%;
                 height: 1px;
-                background-color: var(--black);
+                background-color: #A9A9A9;
                 margin-bottom: 0.5vw;
     
                 &:nth-child(1){

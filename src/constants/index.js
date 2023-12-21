@@ -30,7 +30,7 @@ export const headerNav = [
 ];
 
 export const introText = {
-    title: "port developer",
+    title: "front developer",
     desc: ["talent is", "found at the end of the", "effort"]
 }
 

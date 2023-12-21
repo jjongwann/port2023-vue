@@ -42,7 +42,7 @@ export default {
                 scrollTrigger: {
                     trigger: "#port",
                     start: "top 56px",
-                    end: "+=3000",
+                    end: "+=2000",
                     pin: true,
                     scrub: 1,
                     markers: false,

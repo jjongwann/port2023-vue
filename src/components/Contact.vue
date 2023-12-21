@@ -68,7 +68,7 @@ import { contactText } from "../constants";
     .contact__text {
         width: 100%;
         height: 40vh;
-        background-color: var(--black);
+        background-color: #696969;
         color: var(--white);
         display: flex;
         align-items: center;
@@ -102,7 +102,7 @@ import { contactText } from "../constants";
             display: block;
             width: 100%;
             height: 1px;
-            background-color: var(--black);
+            background-color: #A9A9A9;
             margin-bottom: 0.5vw;
 
             &:nth-child(1){
