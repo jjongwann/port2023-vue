@@ -115,11 +115,11 @@ export const portText = [
     },
     {
         num: "04",
-        title: "VITE 포트폴리오 사이트",
-        desc: "이 사이트는 VITE로 만든 포트폴리오 사이트입니다. vite를 사용하여 사이트를 번들링하고 관리하며, gsap를 이용하여 패럴릭스 효과를 주고 lenis를 이용하여 스모스 효과를 구현하는 등 다양한 프레임워크를 활용한 사이트입니다. HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다.",
+        title: "VUE 포트폴리오 사이트",
+        desc: "이 사이트는 VUE로 만든 포트폴리오 사이트입니다. VUE를 사용하여 사이트를 번들링하고 관리하며, gsap를 이용하여 패럴릭스 효과를 주고 lenis를 이용하여 스모스 효과를 구현하는 등 다양한 프레임워크를 활용한 사이트입니다. HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다.",
         img: portfolio,
-        code: "https://github.com/jjongwann/port2023-vite",
-        view: "https://port2023-jongs-vite.netlify.app/",
+        code: "https://github.com/jjongwann/port2023-vue",
+        view: "https://port2023-jongs-vue.netlify.app/",
         name: "VITE 포트폴리오 사이트",
     },
     {
